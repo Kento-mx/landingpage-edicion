@@ -7,17 +7,17 @@ export const IconosPerfil = () => {
   return (
     <div className={`flex justify-center items-center grow 
                     ${style.backgroundColorRed}`}>
-        <div className="flex"
+        <div className="flex relative"
         >
             <Image
-                className={`relative ${style.logo1}`}
+                className={`${style.logo1}`}
                 src={Logo1}
                 width={150}
                 height={150}
                 alt="Logo1"
             />
             <Image 
-                className={`relative ${style.logo2}`}
+                className={`${style.logo2}`}
                 src={Logo2}
                 width={150}
                 height={150}

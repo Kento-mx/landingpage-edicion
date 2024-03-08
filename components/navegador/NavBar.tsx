@@ -7,7 +7,7 @@ export const NavBar = () => {
 
   return (
     <nav
-        className={`flex justify-center items-center top-0 gap-7 w-4/5 h-10 ${roboto.className} md:text-lg lg:text-xl `}
+        className={`border flex justify-center items-center top-0 gap-7 w-4/5 min-w-80 h-10 ${roboto.className} md:text-lg lg:text-xl `}
     >
         <ActiveLink />
     </nav>
