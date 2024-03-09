@@ -3,7 +3,7 @@
 import Image, { StaticImageData } from "next/image"
 import { useState } from "react";
 import sin6n from '@/public/streamers/sin6n.jpg';
-import erick from '@/public/streamers/Erick.jpg';
+import erick from '@/public/streamers/erick.jpg';
 import komanche from '@/public/streamers/komanche.jpg';
 
 interface Cliente {
