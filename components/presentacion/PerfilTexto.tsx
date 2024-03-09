@@ -1,7 +1,7 @@
 
 export const PerfilTexto = () => {
   return (
-    <div className="flex flex-col justify-center w-full xl:w-3/5">
+    <div className="flex flex-col justify-center items-center w-full xl:w-3/5">
         <h1 className="flex justify-center font-semibold mb-10 titulos text-5xl sm:text-7xl xl:justify-start">
             ¿Quien Soy?
         </h1>

@@ -10,14 +10,14 @@ export const IconosPerfil = () => {
         <div className="flex relative"
         >
             <Image
-                className={`${style.logo1}`}
+                className={`w-full h-full ${style.logo1}`}
                 src={Logo1}
                 width={150}
                 height={150}
                 alt="Logo1"
             />
             <Image 
-                className={`${style.logo2}`}
+                className={`w-full h-full ${style.logo2}`}
                 src={Logo2}
                 width={150}
                 height={150}
