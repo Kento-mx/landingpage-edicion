@@ -6,7 +6,7 @@ const inder = Inder({subsets: ["latin"], weight:["400"]});
 
 
 export const metadata: Metadata = {
-  title: "Ediciones | Kento",
+  title: "Ediciones - Kento",
   description: "Informacion y contacto para solicitar ediciones de videos para tu canal de YT",
 };
 
