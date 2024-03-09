@@ -15,21 +15,21 @@ export const ClientesVideos = () => {
     const {'src/videos': srcVideos} = urlsClientes;
 
     return (
-        <div className="border border-blue-300 flex flex-col w-3/4 divide-y-4 divide-red-900 mt-12 gap-8">
+        <div className="flex flex-col w-3/4 divide-y-4 divide-red-900 mt-12 gap-8">
             
             <div className="flex flex-col items-center">
-                <div className="titulos font-semibold text-5xl mb-10 decoration-4 decoration-dashed">
-                    Streamers / Clientes
+                <div className="flex justify-center titulos font-semibold decoration-4 decoration-dashed text-4xl mb-5 sm:text-5xl sm:mb-10">
+                    Streamers
                 </div>
-                <div>
+                <div className="w-full">
                     <Streamers streamerSelect={setStreamerSelect}/>
                 </div>
             </div>
-            <div className="flex flex-col gap-10 items-center p-10">
+            <div className="flex flex-col gap-10 items-center p-5 sm:p-10">
                 {
                     srcVideos.map(video => (
                         <iframe
-                            className="w-3/4 h-3/4 aspect-video rounded-lg"
+                            className="w-full aspect-video rounded-lg sm:w-3/4 h-3/4"
                             key={video} 
                             width="560" 
                             height="315" 

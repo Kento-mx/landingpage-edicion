@@ -38,14 +38,15 @@ export const Streamers = ( {streamerSelect} :
 
     return (
         <>
-            <div className="flex gap-10">
+            <div className="flex justify-center w-full sm:gap-10">
                {
                 clientes.map((cliente) => (
                     <Image
-                        className={`transition-all ease-in delay-100
-                                    rounded-full saturate-0 cursor-pointer scale-75
+                        className={`scale-75 rounded-full cursor-pointer min-w-20
+                                    transition-all ease-in delay-100
+                                    saturate-0
                                     ${cliente.state === true ?
-                                     'saturate-100 border-2 border-red-900 scale-110'
+                                     'saturate-100 border-2 border-red-900 lg:scale-105'
                                     :
                                      'hover:saturate-50'}`}
                         key={cliente.name}
