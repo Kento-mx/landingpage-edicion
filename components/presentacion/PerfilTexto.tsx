@@ -3,7 +3,7 @@ export const PerfilTexto = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full xl:w-3/5 xl:items-start">
         <h1 className="font-semibold mb-10 titulos text-5xl sm:text-7xl xl:justify-start">
-            ¿Quien Soy?
+            ¿Quién es Kento?
         </h1>
         <p className="text-xl text-gray-400 mb-4 sm:text-3xl">
             Soy un editor de videos con 2 años de experiencia,
